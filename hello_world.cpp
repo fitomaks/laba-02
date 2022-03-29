@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
-using namespace std;
+
 
 int main(){
-	cout << "vvedite imy polzovately  "<< endl;
-	string name;
-	cin >> name ;
-	cout << "hello world!!" << name << endl;
+	std::cout << "vvedite imy polzovately  "<< std::endl;
+	std::string name;
+	std::cin >> name ;
+	std::cout << "hello world!!" << name << std::endl;
 	return 1;
 }
  
